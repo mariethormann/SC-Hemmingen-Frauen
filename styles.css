@@ -1,0 +1,225 @@
+html, body {margin: 0px; padding: 0; height: 100%; text-align: center; background-color: #f0f0f0;}
+
+section {min-height: 100%;}
+
+a {text-decoration: none;}
+
+li {list-style-type: none;}
+
+h3, h4, a {font-family: 'Roboto', sans-serif; font-weight: 500; color: #494949; text-transform: uppercase;}
+
+h1, h2 {font-family: 'Roboto', sans-serif; font-weight: 500; color: #ffffff; text-transform: uppercase;}
+
+h2 {color: #5d7177;}
+
+h3 {font-size: 60px; padding-top: 8%; margin-bottom: 5px;}
+
+h5, p {font-family: 'Roboto', serif; color: #494949;}
+
+hr {width: 30px; height: 4px; background: #494949; border: 0px; margin: 0 auto 40px auto;}
+
+#logo {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;}
+
+#facebook {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;}
+
+#instagram, img, .button {transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;}
+
+#facebooklogo {
+    transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;}
+
+#instagramlogo {
+    transition: all 300ms; -webkit-transition: all 300ms; -moz-transition: all 300ms; -o-transition: all 300ms;}
+
+
+
+#home img {border-radius: 50%;}
+
+#Aktuelles img {border-radius: 2%;}
+
+#Galerie img {border-radius: 2%;}
+
+#team1 img {border-radius: 50%;}
+
+#team2 img {border-radius: 50%;}
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 6px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+
+/* HEADER ****************/
+
+header {width: 100%; height: 65px; position: fixed; top: 0; left: 0; background: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); z-index: 1;}
+
+#logo:hover {opacity: 0.5;}
+
+#facebook:hover {opacity: 0.5;}
+
+#instagram:hover {opacity: 0.5;}
+
+header nav {float: right; margin: 8px 0px 0 0;}
+
+#logo {width: 100px; float: left; margin: 10px 0 0 20px;}
+
+header nav ul li {float: left; margin-right: 20px;}
+
+header nav ul li {font-size: 19px;}
+
+#main-nav ul li:hover {padding-top: 5px;}
+
+
+/* HOME ****************/
+
+#home {background: url(img/Beide_Mannschaften.jpg); background-position: center 0%; background-size: cover; background-attachment:fixed;}
+
+#home h1 {margin: 320px auto 0 auto; font-size: 45px;}
+
+#home h2 {margin: 0 auto 0 auto; font-size: 95px; color: #ffffff;}
+
+#home img {width: 36px; margin-top: 700px; opacity: 0.8;}
+
+#home img:hover {opacity: 1;}
+
+#facebooklogo:hover {width: 60px;}
+
+#instagramlogo:hover {width: 60px;}
+
+
+/* TEAM 1 ****************/
+
+#team1 {background: url(img/Frauen1.jpg); background-position: center 0%; background-size: cover; background-attachment:fixed;}
+
+#team1 h3 {margin-left: 20px; margin-top: 0px; font-size: 50px; color: #ffffff; text-align: left; padding-top: 7%; margin-bottom: 1px;}
+
+#team1 h4 {margin-left: 20px; margin-top: 0px; font-size: 20px; color: #ffffff; text-align: left;}
+
+#team1 img {width: 36px; margin-top: 495px; opacity: 0.8;}
+
+#team1 img:hover {opacity: 1;}
+
+
+/* TEAM 2 ****************/
+
+#team2 {background: url(img/Frauen2.jpg); background-position: center 0%; background-size: cover; background-attachment:fixed;}
+
+#team2 h3 {margin-left: 20px; margin-top: 0px; font-size: 50px; color: #ffffff; text-align: left; padding-top: 7%; margin-bottom: 1px;}
+
+#team2 h4 {margin-left: 20px; margin-top: 0px; font-size: 20px; color: #ffffff; text-align: left;}
+
+#team2 img {width: 36px; margin-top: 495px; opacity: 0.8;}
+
+#team2 img:hover {opacity: 1;}
+
+
+/* AKTUELLES ****************/
+
+#Aktuelles {background-color: #f0f0f0;}
+
+#news {width: 900px; margin: 0 auto 0 auto;}
+
+#news ul {padding: 0;}
+
+#news ul li {width: 33.3%; float: left;}
+
+#Aktuelles img {margin-top: 100px; opacity: 0.8;}
+
+#pfeilaktuell {width: 36px; margin-top: 495px; opacity: 0.8;}
+
+#Aktuelles img:hover {opacity: 1;}
+
+
+
+/* GALERIE ****************/
+
+#bildergalerie {margin: 10px 50px;}
+
+#bildergalerie img {width: 230px; padding: 5px; border-radius: 2px;}
+
+#bildergalerie img:hover{transform: scale(1.1);}
+
+#pfeilaktueller {width: 36px; margin-top: 50px; opacity: 0.8;}
+
+
+/* KONTAKT ****************/
+
+form input, textarea {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15 px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: 2px solid;
+    border-color: #494949;
+}
+
+form input: first-child{
+    margin-top: 10px;
+}
+
+form input {
+    width: 550px;
+    height: 30px;
+}
+
+form textarea {
+    width: 550px;
+    height: 200px;
+    resize: none;
+}
+
+.input_text {
+    color: #494949;
+    padding-left: 10px;
+}
+
+::-webkit-input-placeholder {color: #999999;}
+::-moz-placeholder {color: #999999;}
+:-ms-input-placeholder {color: #999999;}
+:-moz-placeholder {color: #999999;}
+
+.button {
+    
+    width: 566px;
+    height: 50px;
+}
+
+.button:hover {
+    background-color: #494949;
+    color: #f0f0f0;
+}
+
+.trainerinnen {
+    border-radius: 2px;
+}
+
+#Kontakt {background-color: #f0f0f0;}
+
+#maps:hover{transform: scale(1.1);}
+
+#maps {border-radius: 2px;}
+
+/* FOOTER ****************/
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #3f3f3f;}
+
+footer p {
+    font-size: 12px;
+    color: #f0f0f0;
+    padding-top: 30px;
+}
